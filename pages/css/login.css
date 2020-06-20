@@ -1,0 +1,35 @@
+/* All Devices */
+/* Backgrpund */
+.login-page {
+    background-image: url('../../assets/img/img-2.jpg');
+}
+.login-gradient {
+    background-image: linear-gradient(to left, red, rgb(32, 1, 28));
+}
+
+/* Form */
+.form-login {
+    position: absolute;
+    top: 0; right: 0; left: 0; bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    z-index: 3;
+    width: 75%;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+.form-login h1 {
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    .form-login {
+        width: 35%;
+    }
+}
